@@ -6,7 +6,7 @@ A fully free, intelligent, and cross-platform productivity and wellness assistan
 
 ## 📌 Overview
 
-This Flutter app is the mobile companion to the **Actual Useful Assistant** ecosystem. It integrates seamlessly with the shared Firebase backend used by the desktop and CLI apps (macOS/Windows). The mobile app focuses on accessibility, quick interaction, habit-building, and on-the-go tracking.
+This Flutter app is the mobile companion to the **Actual Useful Assistant** ecosystem. It integrates seamlessly with the shared Firebase backend used by the desktop and CLI apps (macOS/Windows). The mobile app focuses on accessibility, quick interaction, habit-building, gamification, and on-the-go tracking.
 
 ---
 
@@ -18,6 +18,15 @@ This Flutter app is the mobile companion to the **Actual Useful Assistant** ecos
 - **Time Blocking** to dedicate focused slots for deep work  
 - **Pomodoro / 90-Minute Rule Timer** for time management  
 - **Smart Suggestions** for today’s tasks based on urgency, priority, and past performance  
+
+### 📈 Progress Tracking & Gamification
+- **Day Score & Mood Tracker** – rate your day and emotional well-being  
+- **Habit Streaks** – track consistency with daily habits  
+- **Weekly/Monthly Analytics** – view visual summaries of your time and productivity  
+- **XP & Level System** – earn experience points for completing tasks, journaling, learning, etc.  
+- **Achievements & Badges** – unlock badges for milestones and consistent behavior  
+- **Progress Dashboard** – visual feedback on goals, habits, and wellness trends  
+- **Leaderboard (Optional)** – compare productivity and consistency with friends (if enabled)
 
 ### 🤖 AI-Powered Assistance
 - **Quick Rephrasing Tool** using Gemini API (for emails, texts, or notes)  
@@ -32,7 +41,6 @@ This Flutter app is the mobile companion to the **Actual Useful Assistant** ecos
 ### 🌱 Motivation & Wellness
 - **Daily Quotes** – random or user-selected inspirations  
 - **Motivational Video Library** – add/save videos and play in-app  
-- **Mood Rating & Day Score** – track emotional state and stress level  
 - **Work-Life Balance Score** – helps you reflect on daily burnout risk  
 - **End-of-Day Journaling** and mental RAM clearing zone  
 
@@ -46,14 +54,15 @@ This Flutter app is the mobile companion to the **Actual Useful Assistant** ecos
 
 ## 🧰 Tech Stack
 
-| Layer        | Technology                  |
-|-------------|------------------------------|
-| **UI**       | Flutter + Material Design    |
-| **State Mgmt** | Riverpod / Provider (your choice) |
-| **Backend**  | Firebase Firestore, Auth     |
-| **AI Layer** | Gemini API (via REST)        |
-| **Video**    | `video_player` Flutter package |
-| **Charts**   | `fl_chart` or `syncfusion_flutter_charts` |
-| **Notifications** | `flutter_local_notifications` |
+| Layer          | Technology                          |
+|----------------|--------------------------------------|
+| **UI**         | Flutter + Material Design            |
+| **State Mgmt** | Riverpod / Provider (your choice)    |
+| **Backend**    | Firebase Firestore, Auth             |
+| **AI Layer**   | Gemini API (via REST)                |
+| **Video**      | `video_player` Flutter package       |
+| **Charts**     | `fl_chart` or `syncfusion_flutter_charts` |
+| **Gamification** | Custom XP & Badge logic + Firestore |
+| **Notifications** | `flutter_local_notifications`     |
 
 ---
