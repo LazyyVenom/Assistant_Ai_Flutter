@@ -1,5 +1,5 @@
 name: assistant_flutter
-description: "A new Flutter project."
+description: "A assistant + Helper for easier and more efficient Flutter learning and remembering."
 publish_to: "none"
 
 version: 1.0.0+1
@@ -11,9 +11,9 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.8
-  firebase_core: ^2.25.0
-  firebase_auth: ^4.17.0
-  cloud_firestore: ^4.15.0
+  firebase_core:
+  firebase_auth:
+  firebase_database:
 
 dev_dependencies:
   flutter_test:
